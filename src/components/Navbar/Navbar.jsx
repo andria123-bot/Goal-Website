@@ -1,4 +1,5 @@
-import Logo from '../../Images/Bg/bg.jpg'; import './navBar.css';
+import Logo from '../../Images/Bg/bg.jpg'; 
+import './navBar.css';
 
 const Navbar = ({ scrollToSection }) => (
   <nav>
