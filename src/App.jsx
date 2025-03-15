@@ -1,9 +1,9 @@
-import Navbar from './components/Navbar/Navbar';
-import Main from './components/Main/Main';
-import Home from './components/Home/Home';
-import Footer from './components/Footer/Footer';
-import Info from './components/Info/Info';
-import Contacts from './components/Contacts/Contacts'
+import Navbar from './components/Navbar/Navbar.jsx';
+import Main from './components/Main/Main.jsx';
+import Home from './components/Home/Homev';
+import Footer from './components/Footer/Footer.jsx';
+import Info from './components/Info/Info.jsx';
+import Contacts from './components/Contacts/Contacts.jsx'
 import './styles/App.css';
 
 function App() {
