@@ -1,0 +1,100 @@
+.ContactsContainer {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background: linear-gradient(to right, #CADAAD, #AAC47A);
+  opacity: 0.9;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  color: white;
+  font-family: 'VT323';
+  font-size: 20px;
+  color: #a115ff;
+}
+
+.ContactsTitle {
+  padding-bottom: 20px;
+  font-size: 35px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.Boxes {
+  display: flex;
+  gap: 20px;
+}
+
+.LeftBoxes {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.Box1,
+.Box2,
+.Box3 {
+  width: 320px;
+  height: 100px;
+  background-color: #688067;
+  border-radius: 15px;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  padding: 10px;
+}
+
+.ContactsIcon {
+  width: 40px;
+  height: 40px;
+  margin-bottom: 0.5rem;
+  color: #ffd21d;
+}
+
+.FeedbackPart {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #688067;
+  border-radius: 15px;
+  padding: 20px;
+}
+
+.FeedbackPart h1 {
+  margin: 0 0 20 0;
+  font-size: 50px;
+  color: #ffd21d;
+}
+
+.InputName,
+.InputEmail,
+.InputText {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.SubmitButton {
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  background-color: #a115ff;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  width: 200px;
+  height: 40px;
+}
+
+.SubmitButton:hover {
+  background-color: #8a00e6;
+}
+
+.FeedbackSend{
+
+}

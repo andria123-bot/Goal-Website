@@ -1,0 +1,121 @@
+.ChildDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 1600px;
+  height: 700px;
+  background: linear-gradient(to right, #CADAAD, #AAC47A);
+  margin: auto;
+  border-radius: 15px;
+  opacity: 0.9;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.Navbar{
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #9231d3;
+  width: 100%;
+  gap: 150px;
+  cursor: pointer;
+  font-family: 'VT323';
+}
+
+.HorizontalLine{
+  width: 100%;
+  background-color: black;
+  height: 1.5px;
+  border: none;
+}
+
+.IntroTxt{
+  color: #B771E5;
+  font-family: 'VT323';
+  font-size: 30px;
+}
+
+.MentorPhoto {
+  border: 2px solid black;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-top: 10px;
+}
+
+.MentorGrid {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: 'VT323';
+  color: #3b0063;
+}
+
+.MentorCard {
+  width: 240px;
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #8AA988;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.MentorCard p{
+  font-size: 18px;
+  font-family: 'VT323';
+}
+
+.MentorCard h4{
+  font-size: 23px;
+}
+
+.GOA {
+  font-size: 70px;
+  font-family: 'VT323';
+  text-shadow: -6px 5px 0px black, -9px 8px 4px rgba(0, 0, 0, 0.5);
+  color: #B771E5;
+}
+
+.CoursesGrid{
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  font-size: 25px;
+  font-family: 'VT323';
+  color: #3b0063;
+}
+
+.CourseCard{
+  width: 360px;
+  height: 350px;
+  display: grid;
+  flex-direction: row;
+  justify-content: center;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: #8AA988;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.CoursesH2{
+  margin-top: 2px;
+  margin-bottom: 2px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HeaderH1{
+  display: flex;
+  padding: 0;
+  justify-content: center;
+  font-size: 30px;
+  color: #9231d3;
+  font-family: 'VT323';
+}
