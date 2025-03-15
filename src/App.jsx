@@ -1,6 +1,6 @@
 import Navbar from './components/Navbar/Navbar.jsx';
 import Main from './components/Main/Main.jsx';
-import Home from './components/Home/Homev';
+import Home from './components/Home/Home.jsx';
 import Footer from './components/Footer/Footer.jsx';
 import Info from './components/Info/Info.jsx';
 import Contacts from './components/Contacts/Contacts.jsx'
