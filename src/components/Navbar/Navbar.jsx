@@ -1,11 +1,11 @@
 import Logo from '../../Images/Bg/bg.jpg'; 
-import './navBar.css';
+import './NavBar.css';
 
 const Navbar = ({ scrollToSection }) => (
   <nav>
     <div className='navbar'>
       <div className='LogoCont'>
-        <img src={Logo} className='NavLogo' alt="Logo" />
+        <img src={Logo} className='NavLogo'/>
       </div>
       <ul className='navbarLinks'>
         <li><a href="#home" className='HomeLink' onClick={(e) => { e.preventDefault(); scrollToSection('home'); }}>Home</a></li>
